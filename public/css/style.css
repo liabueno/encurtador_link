@@ -1,0 +1,38 @@
+/* INDEX */
+
+/* CAROUSEL */
+.slide{
+    width: 100vw;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+/* GENERATE */
+.btn-success{
+    width: 10vw;
+    height: 5vh;
+    margin-top: 50px;
+}
+
+.campo, .label{
+    margin-top: 30vh;
+}
+
+.campo {
+    width: 15vw;
+}
+
+.campo2, .label2{
+    margin-top: 5vh;
+}
+
+.label2{
+    margin-left: 2vh;
+}
+
+.campo2{
+    margin-left: 2vh;
+    width: 15vw;
+}
+
+
