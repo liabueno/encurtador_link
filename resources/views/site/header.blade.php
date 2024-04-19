@@ -1,6 +1,6 @@
 
     <!-- MENU NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
             <img src="{{ asset('img/logo.png') }}" class="logo" alt="">
             <a class="navbar-brand" href=" {{ route('site.index') }} ">EncurtaLink</a>

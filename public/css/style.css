@@ -45,8 +45,9 @@
 
 /* CARD */
 .card{
-    margin-top: 7%;
+    margin-top: 13%;
 }
+
 .chamada, .chamada:hover{
     color: var(--light-color);
 }
