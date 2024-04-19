@@ -7,10 +7,10 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function index(){
-        return View('site.index');
+        return View('index');
     }
 
     public function redirect(){
-        return View('site.index');
+        return View('index');
     }
 }
