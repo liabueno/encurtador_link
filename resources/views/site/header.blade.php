@@ -1,6 +1,6 @@
 
     <!-- MENU NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <img src="{{ asset('img/logo.png') }}" class="logo" alt="">
             <a class="navbar-brand" href=" {{ route('site.index') }} ">EncurtaLink</a>
@@ -15,12 +15,12 @@
                             Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('site.login') }}">
+                        <a class="nav-link" href="{{ route('app.generate') }}">
                             <img src="{{ asset('img/link.png') }}" class="icone" alt="">
                             Gerar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('site.login') }}">
+                        <a class="nav-link" href="{{ route('app.list') }}">
                             <img src="{{ asset('img/lista.png') }}" class="icone" alt="">
                             Listar</a>
                     </li>

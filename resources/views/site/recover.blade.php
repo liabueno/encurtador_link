@@ -16,6 +16,26 @@
 
 </head>
 <body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <img src=" {{ asset('img/recover.png') }} " class="img-thumbnail capa" alt="">
+            </div>
+            <div class="col-6 justify-content-center align-items-center">
+                <form action="" class="recuperar">
+                    <h1 class="text-center">Recuperar Senha</h1>
+                    <br>
+                    <label for="inputEmail4" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Informe seu e-mail">
+                    <br>
+                </form>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" id="btn"><a class="acessar" href="{{ route('site.index') }}">Enviar</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
