@@ -36,7 +36,7 @@
                     <input type="password" class="form-control" id="inputPassword4" placeholder="Informe sua senha novamente">
                 </form>
                 <div class="text-center">
-                    <button type="submit" class="btn btn-success" id="btn"><a class="acessar" href="{{ route('site.index') }}">Registre-se</a></button>
+                    <button type="submit" class="btn btn-success" id="registre"><a class="acessar" href="{{ route('site.index') }}">Registre-se</a></button>
                 </div>
             </div>
         </div>

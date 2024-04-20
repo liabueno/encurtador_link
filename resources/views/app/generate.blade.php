@@ -22,6 +22,9 @@
     <!-- FORMS -->
     <div class="container">
         <div class="row g-3 align-items-center justify-content-center">
+            <div class="col-12">
+                <h1 class="text-center gerar">Gerar Meu Link Encurtado</h1>
+            </div>
             <div class="col-auto">
                 <form action="">
                     <label for="inputPassword6" class="col-form-label label">https://localhost/</label>
