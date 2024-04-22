@@ -35,7 +35,7 @@
                 <div class="text-center">
                     <button type="submit" class="btn btn-info" id="btn"><a class="acessar" href="{{ route('site.index') }}">Acessar</a></button>
                     <br>
-                    <a href="{{ route('site.recover') }}">Esqueci minha senha</a>     
+                    <a class="esqueci" href="{{ route('site.recover') }}">Esqueci minha senha</a>     
                 </div>
             </div>
         </div>

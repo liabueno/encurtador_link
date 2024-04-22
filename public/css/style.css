@@ -39,7 +39,7 @@
 }
 /* CARD */
 .card{
-    margin-top: 6vh;
+    margin-top: 6.4vh;
 }
 
 .chamada, .chamada:hover{
@@ -57,7 +57,7 @@
     width: 15vw;
     height: 6vh;
     margin-top: 10vh;
-    margin-bottom: 13vh;
+    margin-bottom: 12vh;
 }
 /* URL ORIGINAL */
 .campo, .label{
@@ -85,7 +85,7 @@
 
 .capa{
     width: 95%;
-    margin-top: 2vh;
+    margin-top: 5vh;
 }
 .form{
     margin-top: 20vh;
@@ -106,6 +106,10 @@
 .acessar, .acessar:hover{
     text-decoration: none;
     color: var(--light-color);
+}
+.esqueci{
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 /* RECOVER */
@@ -139,7 +143,7 @@
 .lixeira{
     height: 1.5vw;
     margin-right: 1vw;
-    margin-bottom: 1vh;
+    margin-bottom: 0.5vh;
 }
 
 /* FOOTER */
