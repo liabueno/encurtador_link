@@ -27,7 +27,7 @@
                     <h1 class="text-center">Recuperar Senha</h1>
                     <br>
                     <label for="inputEmail4" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Informe seu e-mail">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Informe o e-mail cadastrado">
                     <br>
                 </form>
                 <div class="text-center">
