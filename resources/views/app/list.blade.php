@@ -30,7 +30,7 @@
                             <p class="criado">http://localhost/estudos</p>
                         </div>
                         <div class="col-3">
-                            <button type="submit" class="btn btn-danger excluir"><img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt="">Excluir</button>
+                            <button type="submit" class="btn btn-danger excluir">Excluir<img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                             <p class="criado">http://localhost/trabalho</p>
                         </div>
                         <div class="col-3 text-center">
-                            <button type="submit" class="btn btn-danger excluir"><img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt="">Excluir</button>
+                            <button type="submit" class="btn btn-danger excluir">Excluir<img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                             <p class="criado">http://localhost/formulario</p>
                         </div>
                         <div class="col-3 text-center">
-                            <button type="submit" class="btn btn-danger excluir" ><img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt="">Excluir</button>
+                            <button type="submit" class="btn btn-danger excluir" >Excluir<img src="{{ asset('img/lixeira.png') }}" class="lixeira" alt=""></button>
                         </div>
                     </div>
                 </div>
