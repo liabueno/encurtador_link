@@ -25,6 +25,8 @@ Route::get('/login', [App\Http\Controllers\AccountController::class, 'login'])->
 
 Route::get('/logout', [App\Http\Controllers\AccountController::class, 'logout'])->name('site.logout');
 
+Route::get('/contact', [App\Http\Controllers\AccountController::class, 'contact'])->name('site.contact');
+
 
 Route::prefix('app')->group(function(){
     Route::get('/generate', [App\Http\Controllers\LinkController::class, 'generate'])->name('app.generate');
@@ -33,7 +35,7 @@ Route::prefix('app')->group(function(){
 });
 
 Route::fallback(function() {
-    echo 'A rota acessada não existe. <a href="'.route('site.index').'">Clique para Voltar</a>';
+    Route::get('/fallback', [App\Http\Controllers\AccountController::class, 'fallback'])->name('site.fallback');
 });
 
 // Route::get(

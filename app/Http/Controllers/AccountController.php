@@ -19,6 +19,14 @@ class AccountController extends Controller
     }
 
     public function logout(){
-        return View('site.login');
+        return View('site.logout');
+    }
+
+    public function contact(){
+        return View('site.contact');
+    }
+
+    public function fallback(){
+        return View('site.fallback');
     }
 }

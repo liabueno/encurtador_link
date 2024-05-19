@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 class LinkController extends Controller
 {
     public function generate(){
-        return View('app.generate');
+        return View('site.generate');
     }
 
     public function remove(){
-        return View('app.list');
+        return View('site.list');
     }
 
     public function list(){
-        return View('app.list');
+        return View('site.list');
     }
 }
