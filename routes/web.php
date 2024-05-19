@@ -27,6 +27,7 @@ Route::get('/logout', [App\Http\Controllers\AccountController::class, 'logout'])
 
 Route::get('/contact', [App\Http\Controllers\AccountController::class, 'contact'])->name('site.contact');
 
+Route::get('/fallback', [App\Http\Controllers\AccountController::class, 'fallback'])->name('site.fallback');
 
 Route::prefix('app')->group(function(){
     Route::get('/generate', [App\Http\Controllers\LinkController::class, 'generate'])->name('app.generate');
@@ -35,7 +36,7 @@ Route::prefix('app')->group(function(){
 });
 
 Route::fallback(function() {
-    Route::get('/fallback', [App\Http\Controllers\AccountController::class, 'fallback'])->name('site.fallback');
+    return redirect()->route('site.fallback');
 });
 
 // Route::get(

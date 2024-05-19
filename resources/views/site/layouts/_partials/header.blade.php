@@ -24,10 +24,24 @@
                             <img src="{{ asset('img/lista.png') }}" class="icone" alt="">
                             Listar</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('site.login') }}">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="{{ asset('img/avatar.png') }}" class="icone" alt="">
-                            Login</a>
+                            Usuário
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="{{ route('site.login') }}">Login</a></li>
+                            <li><a class="dropdown-item" href="{{ route('site.recover') }}">Recuperar Senha</a></li>
+                            <li><a class="dropdown-item" href="{{ route('site.register') }}">Cadastre-se</a></li>
+                            {{-- <li><a class="dropdown-item" href="{{ route('site.profile') }}">Profile</a></li> --}}  
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="{{ route('site.logout') }}">Logout</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('site.contact') }}">
+                            <img src="{{ asset('img/contate.png') }}" class="icone" alt="">
+                            Contato</a>
                     </li>
                 </ul>
             </div>

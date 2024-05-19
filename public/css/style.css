@@ -8,6 +8,7 @@
     --tertiary-color: #FFBF69;
     --quaternary-color: #FF9F1C;
     --light-color: #FFFF;
+    --grey-scale: rgb(68, 68, 68);
 }
 
 /* INDEX */
@@ -22,6 +23,7 @@
 .nav-link:hover{
     background-color: var(--secondary-color);
     border-radius: 10%;
+    color: var(--grey-scale);
 }
 .navbar-brand:hover{
     color: var(--quaternary-color);
@@ -41,11 +43,24 @@
 .card{
     margin-top: 6.4vh;
 }
-
-.chamada, .chamada:hover{
+.chamada{
     color: var(--light-color);
     text-decoration: none;
+
 }
+.chamada:hover{
+    color: var(--grey-scale);
+    text-decoration: none;
+}
+.info{
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+}
+.info:hover{
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
+}
+
 
 /* GENERATE */
 
@@ -102,10 +117,20 @@
     margin-bottom: 5vh;
     font-size: large;
     width: 10vw;
+    background-color: var(--primary-color);
+    border: var(--primary-color);
 }
-.acessar, .acessar:hover{
+#btn:hover{
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
+}
+.acessar{
     text-decoration: none;
     color: var(--light-color);
+}
+.acessar:hover{
+    text-decoration: none;
+    color: var(--grey-scale);
 }
 .esqueci{
     color: var(--primary-color);
