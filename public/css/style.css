@@ -108,7 +108,7 @@
 #user_register, #user_pass_register, #user_pass_confirm,
 #inputURL, #inputURL2, 
 #user_email, #user_pass,
-#email, #nome,
+#email, #nome, #mensagem, #motivo,
 #user_recover
 {
     width: 35vw;
@@ -117,28 +117,30 @@
 .form-label{
     margin-left: 6vw;
 }
-#btn{
+#btn_recover, #btn_contact, #btn, #registre{
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: large;
     width: 10vw;
     background-color: var(--primary-color);
     border: var(--primary-color);
-}
-#btn:hover{
-    background-color: var(--secondary-color);
-    border: var(--secondary-color);
-}
-.acessar{
-    text-decoration: none;
     color: var(--light-color);
 }
-.acessar:hover{
-    text-decoration: none;
+#btn_recover:hover, #btn_contact:hover, #btn:hover, #registre:hover{
+    background-color: var(--secondary-color);
+    border: var(--secondary-color);
     color: var(--grey-scale);
+}
+#btn_contact{
+    margin-left: 20vw;
 }
 .esqueci{
     color: var(--primary-color);
+}
+
+.contact{
+    margin-top: 25vh;
+    margin-bottom: 3vh;
 }
 
 /* RECOVER */

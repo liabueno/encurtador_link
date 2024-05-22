@@ -10,6 +10,7 @@
                 <img src=" {{ asset('img/login.png') }} " class="img-thumbnail capa" alt="">
             </div>
             <div class="col-6 justify-content-center align-items-center">
+                <h1 class="text-center">Login</h1>
                 @component('site.layouts._components.form_login')
                 @endcomponent
             </div>

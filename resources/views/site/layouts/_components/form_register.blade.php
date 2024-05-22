@@ -1,7 +1,6 @@
 {{ $slot }}         
                <form action="{{ route('site.register') }}" class="form">
                @csrf
-                    <h1 class="text-center">Cadastro</h1>
                     <br>
                     <label for="user_register" class="form-label">E-mail</label>
                     <input type="email" class="form-control" id="user_register" name="user_register" placeholder="Informe seu e-mail">
@@ -12,6 +11,6 @@
                     <label for="user_pass_confirm" class="form-label">Confirmar Senha</label>
                     <input type="password" class="form-control" id="user_pass_confirm" name="user_pass_confirm" placeholder="Informe sua senha novamente">
                     <div class="text-center">
-                        <button type="submit" class="btn btn-success" id="registre"><a class="acessar" href="{{ route('site.index') }}">Registre-se</a></button>
+                        <button type="submit" class="btn btn-success" id="registre">Registre-se</button>
                     </div>
                 </form>
