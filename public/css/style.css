@@ -105,7 +105,12 @@
 .form{
     margin-top: 20vh;
 }
-#inputEmail4, #inputPassword4{
+#user_register, #user_pass_register, #user_pass_confirm,
+#inputURL, #inputURL2, 
+#user_email, #user_pass,
+#email, #nome,
+#user_recover
+{
     width: 35vw;
     margin-left: 6vw;
 }

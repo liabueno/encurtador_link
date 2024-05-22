@@ -1,10 +1,12 @@
-                <form action="" class="recuperar">
+{{ $slot }}         
+                <form action="{{ route('site.recover') }}" class="recuperar">
+                    @csrf
                     <h1 class="text-center">Recuperar Senha</h1>
                     <br>
-                    <label for="inputEmail4" class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Informe o e-mail cadastrado">
+                    <label for="user_recover" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="user_recover" name="user_recover" placeholder="Informe o e-mail cadastrado">
                     <br>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary" id="btn"><a class="acessar" href="{{ route('site.index') }}">Enviar</a></button>
+                        <button type="submit" class="btn btn-primary" name="btn_recover" id="btn_recover"><a class="acessar" href="{{ route('site.index') }}">Enviar</a></button>
                     </div>
                 </form>

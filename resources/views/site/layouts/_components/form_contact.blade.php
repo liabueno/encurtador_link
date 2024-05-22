@@ -1,5 +1,5 @@
 {{ $slot }}         
-                <form action="" method="POST">
+                <form action="{{ route('site.contact') }}" method="POST">
                     @csrf
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome Completo</label>
