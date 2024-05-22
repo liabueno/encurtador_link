@@ -103,7 +103,7 @@
     margin-top: 3.6vh;
 }
 .form{
-    margin-top: 20vh;
+    margin-top: 5vh;
 }
 #user_register, #user_pass_register, #user_pass_confirm,
 #inputURL, #inputURL2, 
@@ -138,14 +138,14 @@
     color: var(--primary-color);
 }
 
-.contact{
+.contact, .login, .cadastro, .recover{
     margin-top: 25vh;
     margin-bottom: 3vh;
 }
 
-/* RECOVER */
 
-.recuperar{
+/* RECOVER */
+.recover{
     margin-top: 30vh;
 }
 
