@@ -197,3 +197,8 @@ footer{
     width: 5vw;
 }
 
+/* FALLBACK */
+.erro{
+    font-weight: bold;
+    color: var(--primary-color);
+}
