@@ -139,8 +139,10 @@
 }
 
 .contact, .login, .cadastro, .recover{
-    margin-top: 25vh;
-    margin-bottom: 3vh;
+    /* margin-top: 25vh;
+    margin-bottom: 3vh; */
+    margin-top: 14vh;
+    margin-bottom: 5vh;
 }
 
 
