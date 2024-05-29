@@ -69,7 +69,7 @@
 }
 /* BOTÃO */
 .btn-success{
-    width: 15vw;
+    width: 16vw;
     height: 6vh;
     margin-top: 10vh;
     margin-bottom: 12vh;
@@ -141,15 +141,10 @@
 .contact, .login, .cadastro, .recover{
     /* margin-top: 25vh;
     margin-bottom: 3vh; */
-    margin-top: 14vh;
+    margin-top: 10vh;
     margin-bottom: 5vh;
 }
 
-
-/* RECOVER */
-.recover{
-    margin-top: 30vh;
-}
 
 /* CADASTRO */
 
@@ -169,15 +164,14 @@
 .excluir{
     margin-top: 5vh;
     margin-bottom: 6vh;
-    width: 7vw;
+    width: 10vw;
 }
 .criado{
     margin-top: 7vh;
     margin-bottom: 6vh;
 }
 .lixeira{
-    height: 1vw;
-    margin-left: 0.8vw;
+    height: 2vh;
     margin-bottom: 0.5vh;
 }
 
