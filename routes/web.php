@@ -20,7 +20,6 @@ Route::get('/redirect', [App\Http\Controllers\IndexController::class, 'redirect'
 Route::get('/register', [App\Http\Controllers\AccountController::class, 'register'])->name('site.register');
 Route::post('/register', [App\Http\Controllers\AccountController::class, 'register'])->name('site.register');
 
-
 Route::get('/recover', [App\Http\Controllers\AccountController::class, 'recover'])->name('site.recover');
 Route::post('/recover', [App\Http\Controllers\AccountController::class, 'recover'])->name('site.recover');
 

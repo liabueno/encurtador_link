@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contato;
+use App\Models\Usuario;
 
 class AccountController extends Controller
 {
@@ -22,7 +24,10 @@ class AccountController extends Controller
         return View('site.logout');
     }
 
-    public function contact(){
+    public function contact(Request $request){
+
+        $contato = new Contato();
+        $contato->create($request->all());
         return View('site.contact');
     }
 

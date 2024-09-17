@@ -1,5 +1,5 @@
 {{ $slot }}         
-               <form action="{{ route('site.register') }}" class="form">
+               <form action="{{ route('site.register') }}" class="form" method="POST">
                @csrf
                     <br>
                     <label for="user_register" class="form-label">E-mail</label>
